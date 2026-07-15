@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'rov_pixhawk_control_node = rov_pixhawk_control.rov_pixhawk_control:main',
+            'attitude_publisher = rov_pixhawk_control.attitude_publisher:main',
         ],
     },
 )
